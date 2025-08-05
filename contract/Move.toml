@@ -1,0 +1,16 @@
+[package]
+name = "UnbreakableTrust"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule_addr = "0x619d5ef977981bf1a3984aed628990fb99381f10528b0e713bc784977083cbf7"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
